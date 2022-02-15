@@ -1,10 +1,5 @@
 import pygame, random
 
-ANCHO = 900
-ALTO = 585
-BLANCO = (255, 255, 255)
-ROJO = (255, 0, 0)
-
 def texto(texto, tam=20, color=(0, 0, 0)):
     fuente = pygame.font.Font(None, tam)
     return fuente.render(texto, True, color)
