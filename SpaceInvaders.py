@@ -1,3 +1,5 @@
+import random
+
 def texto(texto, tam=20, color=(0, 0, 0)):
     fuente = pygame.font.Font(None, tam)
     return fuente.render(texto, True, color)
